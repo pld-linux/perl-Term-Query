@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (tests are broken)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	Query
+%define		pdir	Term
+%define		pnam	Query
 Summary:	Term::Query - table-driven query routine
 Summary(pl):	Term::Query - oparta na tablicach funkcja realizuj±ca zapytania
 Name:		perl-Term-Query
