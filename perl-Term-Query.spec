@@ -10,7 +10,7 @@ Summary(pl):	Term::Query - oparta na tablicach funkcja realizuj±za zapytania
 Name:		perl-Term-Query
 Version:	2.0
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eba5ba66fdf9e98464472dbc89c49dab
@@ -38,7 +38,6 @@ ponowne odpytywanie wej¶cia.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
