@@ -6,7 +6,7 @@
 %define	pdir	Term
 %define	pnam	Query
 Summary:	Term::Query - table-driven query routine
-Summary(pl):	Term::Query - oparta na tablicach funkcja realizuj±za zapytania
+Summary(pl):	Term::Query - oparta na tablicach funkcja realizuj±ca zapytania
 Name:		perl-Term-Query
 Version:	2.0
 Release:	1
