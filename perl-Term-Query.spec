@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	Query
 Summary:	Term::Query - table-driven query routine
-Summary(pl):	Term::Query - oparta na tablicach funkcja realizuj±ca zapytania
+Summary(pl.UTF-8):   Term::Query - oparta na tablicach funkcja realizujÄ…ca zapytania
 Name:		perl-Term-Query
 Version:	2.0
 Release:	1
@@ -26,11 +26,11 @@ various kinds of values. Validation and normalization of input, based
 on the type, is automated, as is error reporting and re-solicitation
 of input.
 
-%description -l pl
-Term::Query to modu³ Perla 5 wykonuj±cy uogólnione zapytania dla
-ró¿nych rodzajów warto¶ci. Zawiera automatyczn± kontrolê poprawno¶ci i
-normalizacjê wej¶cia w zale¿no¶ci od typu, a tak¿e zg³aszanie b³êdów i
-ponowne odpytywanie wej¶cia.
+%description -l pl.UTF-8
+Term::Query to moduÅ‚ Perla 5 wykonujÄ…cy uogÃ³lnione zapytania dla
+rÃ³Å¼nych rodzajÃ³w wartoÅ›ci. Zawiera automatycznÄ… kontrolÄ™ poprawnoÅ›ci i
+normalizacjÄ™ wejÅ›cia w zaleÅ¼noÅ›ci od typu, a takÅ¼e zgÅ‚aszanie bÅ‚Ä™dÃ³w i
+ponowne odpytywanie wejÅ›cia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
