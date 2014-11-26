@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test" (tests are broken)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	Query
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::Query - table-driven query routine
 Summary(pl.UTF-8):	Term::Query - oparta na tablicach funkcja realizująca zapytania
 Name:		perl-Term-Query
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eba5ba66fdf9e98464472dbc89c49dab
+URL:		http://search.cpan.org/dist/Term-Query/
 BuildRequires:	perl-Array-PrintCols
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
