@@ -4,7 +4,6 @@
 
 %define		pdir	Term
 %define		pnam	Query
-%include	/usr/lib/rpm/macros.perl
 Summary:	Term::Query - table-driven query routine
 Summary(pl.UTF-8):	Term::Query - oparta na tablicach funkcja realizująca zapytania
 Name:		perl-Term-Query
