@@ -8,7 +8,7 @@ Summary:	Term::Query - table-driven query routine
 Summary(pl.UTF-8):	Term::Query - oparta na tablicach funkcja realizująca zapytania
 Name:		perl-Term-Query
 Version:	2.0
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
